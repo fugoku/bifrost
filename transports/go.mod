@@ -13,6 +13,7 @@ require (
 	github.com/maximhq/bifrost/core v1.3.9
 	github.com/maximhq/bifrost/framework v1.2.10
 	github.com/maximhq/bifrost/plugins/governance v1.4.11
+	github.com/maximhq/bifrost/plugins/litellmcompat v0.0.1
 	github.com/maximhq/bifrost/plugins/logging v1.4.10
 	github.com/maximhq/bifrost/plugins/maxim v1.5.9
 	github.com/maximhq/bifrost/plugins/otel v1.1.10
@@ -24,6 +25,8 @@ require (
 	gorm.io/driver/sqlite v1.6.0
 	gorm.io/gorm v1.31.1
 )
+
+replace github.com/maximhq/bifrost/plugins/litellmcompat => ../plugins/litellmcompat
 
 require (
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
