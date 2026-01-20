@@ -1,2 +1,0 @@
-- fix: properly propagate cost details in responses accumulator
-- feat: added refine model util function to model catalog
