@@ -1,5 +1,4 @@
 .env
-.vscode
 .DS_Store
 *_creds*
 **/venv/
@@ -96,7 +95,6 @@ dist/
 
 # IDE
 .idea/
-.vscode/
 
 # OS
 .DS_Store
@@ -171,3 +169,7 @@ ui/app/routeTree.gen.ts
 
 .tanstack
 .next
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
