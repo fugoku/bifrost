@@ -7,7 +7,7 @@
     "edge-case-server": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc && chmod +x dist/index.js",
+    "build": "node init && tsc && chmod +x dist/index.js",
     "prepare": "npm run build"
   },
   "dependencies": {
